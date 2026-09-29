@@ -1,0 +1,1 @@
+const N8N_WEBHOOK_URL = "https://azirsam.app.n8n.cloud/webhook/gmail-scheduling-agent";

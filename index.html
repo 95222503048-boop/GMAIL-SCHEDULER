@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gmail Scheduling Agent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Gmail Scheduling Agent</h1>
+      <p>Turn emails into calendar events with AI</p>
+    </header>
+
+    <main id="chat" class="chat" aria-live="polite">
+      <section id="empty" class="empty">
+        <h2>How can I help?</h2>
+        <p>Try one of these:</p>
+        <div class="examples">
+          <button class="example">Check my meetings this week</button>
+          <button class="example">Find important emails from today</button>
+          <button class="example">Schedule the meeting from my latest email</button>
+          <button class="example">Show my upcoming calendar events</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="composer">
+      <label for="input" class="sr-only">Message</label>
+      <textarea id="input" rows="2" placeholder="Ask me to check your Gmail or manage your schedule..."></textarea>
+      <button id="send" type="button">Send</button>
+    </div>
+  </div>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
